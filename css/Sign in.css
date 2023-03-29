@@ -1,0 +1,107 @@
+.content2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 100px auto;
+  position: relative;
+}
+.content2 .in,
+.content2 .up {
+  width: 330px;
+  text-align: center;
+  color: #222222;
+}
+.content2 .in h1,
+.content2 .up h1 {
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+.content2 .in p,
+.content2 .up p {
+  margin-bottom: 20px;
+  height: 100px;
+}
+.content2 .in form div,
+.content2 .up form div {
+  text-align: left;
+}
+.content2 .in form input,
+.content2 .up form input {
+  width: 100%;
+  padding: 20px;
+  margin: 10px 0 30px 0;
+  border: 1px solid #e8e8e8;
+}
+.content2 .in form label,
+.content2 .up form label {
+  text-transform: uppercase;
+}
+.content2 .in form .remember,
+.content2 .up form .remember {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.content2 .in form .remember .check,
+.content2 .up form .remember .check {
+  width: 20px;
+  height: 20px;
+  margin: 0 10px 0 0;
+  cursor: pointer;
+}
+.content2 .in form .remember label,
+.content2 .up form .remember label {
+  cursor: pointer;
+}
+.content2 .in form .submit input,
+.content2 .up form .submit input {
+  border: none;
+  background-color: #333333;
+  color: #f9f9fb;
+  text-transform: uppercase;
+  font-size: 18px;
+  cursor: pointer;
+}
+.content2 .in form a,
+.content2 .up form a {
+  color: #222222;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+.content2 .up .cap {
+  text-transform: uppercase;
+  font-size: 10px;
+  height: 20px;
+}
+.content2::after {
+  content: "";
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  width: 2px;
+  height: 380px;
+  background-color: #f0f0f0;
+}
+
+@media (max-width: 767px) {
+  .content2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .content2 .in {
+    margin-bottom: 100px;
+  }
+  .content2 .in,
+.content2 .up {
+    width: 90%;
+  }
+  .content2::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #f0f0f0;
+  }
+}/*# sourceMappingURL=Sign in.css.map */

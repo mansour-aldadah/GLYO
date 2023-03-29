@@ -1,0 +1,161 @@
+.map .head {
+  position: relative;
+}
+.map .head iframe {
+  filter: grayscale(1);
+}
+.map .head p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  font-weight: bold;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+  .map .head p {
+    font-size: 40px;
+  }
+}
+.contact .container {
+  text-align: center;
+  padding: 50px 0;
+}
+.contact .container h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 0 auto 25px;
+  letter-spacing: 1.5px;
+}
+.contact .container p {
+  width: 500px;
+  margin: auto;
+  color: #949494;
+}
+.contact .container .flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.contact .container .flex form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 67%;
+  justify-content: space-between;
+}
+.contact .container .flex form input {
+  width: 32%;
+  padding: 20px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+}
+.contact .container .flex form textarea {
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.contact .container .flex form .submit {
+  width: 100%;
+  border: none;
+  background-color: #333333;
+  color: #e5e5e5;
+  letter-spacing: 1.5px;
+}
+.contact .container .flex .info {
+  text-align: left;
+  width: 25%;
+}
+.contact .container .flex .info img {
+  width: 80%;
+}
+.contact .container .flex .info p {
+  width: auto;
+}
+.contact .container .flex .info .info1 {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px 0;
+}
+.contact .container .flex .info .info1,
+.contact .container .flex .info .info2 {
+  width: 80%;
+}
+.contact .container .flex .info .info1 h3,
+.contact .container .flex .info .info2 h3 {
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.contact .container .flex .info .info1 p,
+.contact .container .flex .info .info2 p {
+  margin-bottom: 10px;
+}
+
+@media (max-width: 1199px) {
+  .contact .container .flex form {
+    width: 62%;
+  }
+  .contact .container .flex form input {
+    width: 48%;
+  }
+  .contact .container .flex form textarea {
+    height: 200px;
+  }
+  .contact .container .flex .info {
+    width: 30%;
+  }
+}
+@media (max-width: 991px) {
+  .contact .container .flex form {
+    width: 55%;
+  }
+  .contact .container .flex form input {
+    width: 90%;
+  }
+  .contact .container .flex form textarea {
+    height: 150px;
+    width: 90%;
+  }
+  .contact .container .flex form .submit {
+    width: 90%;
+  }
+  .contact .container .flex .info {
+    width: 40%;
+  }
+}
+@media (max-width: 767px) {
+  .contact .container h1 {
+    font-size: 20px;
+  }
+  .contact .container p {
+    width: 300px;
+    font-size: 14px;
+  }
+  .contact .container .flex {
+    flex-wrap: wrap;
+  }
+  .contact .container .flex form {
+    width: 90%;
+    margin: auto;
+  }
+  .contact .container .flex form input {
+    width: 100%;
+  }
+  .contact .container .flex form textarea {
+    height: 150px;
+    width: 100%;
+  }
+  .contact .container .flex form .submit {
+    width: 100%;
+  }
+  .contact .container .flex .info {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+  }
+  .contact .container .flex .info .info1,
+.contact .container .flex .info .info2 {
+    width: 100%;
+  }
+}/*# sourceMappingURL=contact.css.map */
